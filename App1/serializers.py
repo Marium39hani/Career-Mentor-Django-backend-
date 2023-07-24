@@ -36,6 +36,8 @@ class UserSerializer(serializers.ModelSerializer):
         fields = ['id', 'username', 'email']
 
 
+
+
 #class ScoreSerializer(serializers.ModelSerializer):
  #   class Meta:
   #      model = Score
