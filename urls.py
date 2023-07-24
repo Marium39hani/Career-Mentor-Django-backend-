@@ -22,3 +22,4 @@ urlpatterns = [
     path ('',include('App1.urls'))
     
 ]
+
