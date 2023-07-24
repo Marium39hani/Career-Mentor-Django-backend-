@@ -5,6 +5,7 @@ class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     city = models.TextField(max_length=500, blank=True)
     country = models.TextField(max_length=500, blank=True)
+    
    
     # Add more fields as needed
 
